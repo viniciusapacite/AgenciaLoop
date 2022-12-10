@@ -1,0 +1,91 @@
+
+@media screen and (min-width:300px) and (max-width:500px){
+  html,body{
+    width: 100%;
+    font-size: 50%;
+  }
+  .menu {
+    width: none;
+    float: right;
+  }
+
+  .logo {
+    width: auto;
+  }
+
+  div.topo-1 {
+    width: 100%;
+  }
+}
+@media screen and (max-width:768px){
+    html {
+      font-size: 80%;
+    }
+    div.topo-2 {
+      float: none;
+      max-width: 60%;
+      margin: 0 auto;
+    }
+  
+    div.topo-1 {
+      width: 100%;
+    }
+  
+    div.detalhes-servicos {
+      width: auto;
+    }
+  
+    div.img-servicos {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .text-depoimento {
+      width: 100%;
+      text-align: center;
+    }
+    .chamada-servicos h1{
+      font-size: 3rem;
+    }
+    .img-showcase{
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    footer {
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+      font-size: 0.95rem;
+    }
+  
+    .img-depoimento {
+      width: 60%;
+      margin: 0 auto;
+      padding-top: 2rem;
+      float: none;
+    }
+
+    .text-depoimento h3 {
+      font-size: 23px;
+      margin-bottom: 20px;
+    }
+    .logo {
+      width: 30%;
+    }
+   .menu {
+      display: block;
+      width: 20%;
+      float: right;
+   }
+  
+   .menu li  {
+      padding: 10px 10px 0px 10px;
+   }
+
+   .topo-1 > a {
+    font-size: 14px;
+   }
+   .topo-1 > p{
+    line-height: 20px;
+   }
+  }
